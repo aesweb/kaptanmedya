@@ -5,12 +5,14 @@ import Navbar from '@/components/Navbar';
 
 export default function Home() {
   return (
-    <main className="overflow-hidden container mx-auto bg-white text-black">
-      <Navbar />
-      <Hero />
-      <EventCard />
-      main
-      <Footer />
+    <main className="overflow-hidden bg-white text-black">
+      <div className="container mx-auto">
+        <Navbar />
+        <Hero />
+        <EventCard />
+        main
+        <Footer />
+      </div>
     </main>
   );
 }
