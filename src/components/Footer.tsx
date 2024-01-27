@@ -17,8 +17,9 @@ const Footer = () => {
           x
         </div>
       </div>
+
       <div className="text-4xl">Bizi Sosyal Medyadan Takip Edebilirsiniz</div>
-      <div className="text-md">@Copyright Kaptan Medya Organizasyon</div>
+      <div className="text-md">©Copyright Kaptan Medya Organizasyon</div>
     </div>
   );
 };
