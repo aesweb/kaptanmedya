@@ -10,7 +10,6 @@ export default function Home() {
         <Navbar />
         <Hero />
         <EventCard />
-        main
         <Footer />
       </div>
     </main>
