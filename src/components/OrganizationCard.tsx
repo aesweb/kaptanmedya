@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const OrganizationCard = () => {
   return (
@@ -17,7 +18,12 @@ const OrganizationCard = () => {
             çiftimizin yanında olduğumuz gibi…
           </div>
         </div>
-        <div>image</div>
+        <Image
+          src="/logo.jpeg"
+          alt="kaptanmedyalogosu"
+          height={500}
+          width={500}
+        />
       </div>
     </div>
   );
