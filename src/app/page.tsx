@@ -10,16 +10,16 @@ import Services from '@/components/Services';
 export default function Home() {
   return (
     <main className="overflow-hidden bg-white text-black">
+      <Navbar />
       <div className="container mx-auto">
-        <Navbar />
         <ImagesSliderDemo />
         <LayoutGridDemo />
         <Hero />
         <EventCard />
         <OrganizationCard />
         <Services />
-        <Footer />
       </div>
+      <Footer />
     </main>
   );
 }

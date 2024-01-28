@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-center bg-white text-black gap-12">
+    <div className="flex items-center justify-center bg-white text-black gap-12 z-[50] fixed top-0 w-full">
       <Link href="/hakkimizda">
         <div>hakkimizda</div>
       </Link>
