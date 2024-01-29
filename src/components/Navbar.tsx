@@ -1,9 +1,9 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-center bg-white text-black gap-12 z-[50] fixed top-0 w-full">
+    <div className="w-full fixed gap-12 top-0 flex justify-center items-center">
       <Link href="/hakkimizda">
         <div>hakkimizda</div>
       </Link>

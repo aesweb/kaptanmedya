@@ -1,11 +1,14 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-const inter = Inter({ subsets: ['latin'] });
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { Suspense } from "react";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Kaptan Medya',
-  description: 'Kaptan Medya Organizasyon',
+  title: "Kaptan Medya",
+  description: "Kaptan Medya Organizasyon",
 };
 
 export default function RootLayout({
@@ -15,7 +18,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Suspense fallback="...">
+          <Navbar />
+        </Suspense>
+        <main className="flex min-h-screen w-full flex-col items-center justify-center bg-white text-black">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
