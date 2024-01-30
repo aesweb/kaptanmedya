@@ -1,25 +1,61 @@
-import React from "react";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="gap-8 flex flex-col items-center justify-center py-24">
-      <div className="flex items-center justify-center gap-8">
-        <div className="rounded-full  text-white w-14 h-14 items-center justify-center flex">
-          x
-        </div>
-        <div className="rounded-full bg-black text-white w-14 h-14 items-center justify-center flex">
-          x
-        </div>
-        <div className="rounded-full bg-black text-white w-14 h-14 items-center justify-center flex">
-          x
-        </div>
-        <div className="rounded-full bg-black text-white w-14 h-14 items-center justify-center flex">
-          x
-        </div>
+    <div className="gap-8 flex flex-col items-center justify-center py-24 bg-[#ab632d26]">
+      <div className="">
+        <Image
+          src="/logo.jpeg"
+          alt="kaptanmedyalogosu"
+          height={100}
+          width={100}
+        />
+      </div>
+      <div className="flex gap-8">
+        <Link href="/kurumsal-servisler">
+          <div>Galeri</div>
+        </Link>
+        <Link href="/iletisim">
+          <div>Hakkımızda</div>
+        </Link>
+        <Link href="/kurumsal-servisler">
+          <div>Servislerimiz</div>
+        </Link>
+        <Link href="/iletisim">
+          <div>İletişim</div>
+        </Link>
       </div>
 
-      <div className="text-4xl">Bizi Sosyal Medyadan Takip Edebilirsiniz</div>
-      <div className="text-md">©Copyright Kaptan Medya Organizasyon</div>
+      <div className="flex gap-8">
+        <Link href="tel:+9005072534711" className="flex items-center gap-1">
+          <div>
+            <Image
+              src="/phone-fill.svg"
+              alt="kaptanmedyalogosu"
+              height={34}
+              width={34}
+            />
+          </div>
+          <div>0507 253 47 11</div>
+        </Link>
+        <Link
+          href="https://www.instagram.com/kaptanmedya/"
+          className="flex items-center gap-1"
+          target="blank"
+        >
+          <div>
+            <Image
+              src="/instagram-fill.svg"
+              alt="kaptanmedyalogosu"
+              height={25}
+              width={25}
+            />
+          </div>
+          <div>@kaptanmedya</div>
+        </Link>
+      </div>
     </div>
   );
 };
