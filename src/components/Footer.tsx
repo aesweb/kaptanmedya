@@ -14,14 +14,14 @@ const Footer = () => {
         />
       </div>
       <div className="flex flex-col sm:flex-row gap-8">
-        <Link href="/kurumsal-servisler">
-          <div>Galeri</div>
-        </Link>
-        <Link href="/iletisim">
+        <Link href="/hakkimizda">
           <div>Hakkımızda</div>
         </Link>
-        <Link href="/kurumsal-servisler">
-          <div>Servislerimiz</div>
+        <Link href="/servisler">
+          <div>Servisler</div>
+        </Link>
+        <Link href="/galeri">
+          <div>Galeri</div>
         </Link>
         <Link href="/iletisim">
           <div>İletişim</div>

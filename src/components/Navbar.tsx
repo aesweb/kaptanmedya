@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className="w-full bg-white text-black fixed gap-12 z-50 top-0 flex justify-center items-center">
       <Link href="/hakkimizda">
-        <div>hakkimizda</div>
+        <div>Hakkımızda</div>
       </Link>
       <Link href="/servisler">
-        <div>servisler</div>
+        <div>Servisler</div>
       </Link>
       <Link href="/">
         <Image
@@ -17,11 +17,11 @@ const Navbar = () => {
           width={100}
         />
       </Link>
-      <Link href="/kurumsal-servisler">
-        <div>kurumsal servisler</div>
+      <Link href="/galeri">
+        <div>Galeri</div>
       </Link>
       <Link href="/iletisim">
-        <div>iletisim</div>
+        <div>İletişim</div>
       </Link>
     </div>
   );
