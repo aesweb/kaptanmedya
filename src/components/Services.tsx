@@ -39,8 +39,8 @@ const Services = () => {
               height={120}
               width={120}
             />
-            <div className="text-lg">Servisler</div>
-            <div className="text-md px-8">
+            <div className="text-2xl">Servisler</div>
+            <div className="text-md font-light max-w-sm">
               Mutlu anlar, eksiksiz bir günle başlar. Evliliğe ilk adımınızı
               atarken yanınızdayız…
             </div>
