@@ -2,6 +2,7 @@ import EventCard from '@/components/EventCard';
 import { ImagesSliderDemo } from '@/components/ImagesSliderDemo';
 import { LayoutGridDemo } from '@/components/LayoutGridDemo';
 import OrganizationCard from '@/components/OrganizationCard';
+import OrganizationCardTwo from '@/components/OrganizationCardTwo';
 import Services from '@/components/Services';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <EventCard />
       <LayoutGridDemo />
       <OrganizationCard />
+      <OrganizationCardTwo />
       <Services />
     </>
   );

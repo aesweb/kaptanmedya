@@ -1,10 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 
-const OrganizationCard = () => {
+const OrganizationCardTwo = () => {
   return (
     <div className="py-12 bg-[#ab632d26] w-full">
       <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row">
+        <Image
+          src="/logo.jpeg"
+          alt="kaptanmedyalogosu"
+          height={500}
+          width={500}
+          className="rounded-xl hover:scale-105"
+        />
         <div className="gap-12 flex flex-col">
           <div>
             <div className="mb-6 text-xl">Wedding Ceremony</div>
@@ -18,16 +25,9 @@ const OrganizationCard = () => {
             çiftimizin yanında olduğumuz gibi…
           </div>
         </div>
-        <Image
-          src="/logo.jpeg"
-          alt="kaptanmedyalogosu"
-          height={500}
-          width={500}
-          className="rounded-xl hover:scale-105"
-        />
       </div>
     </div>
   );
 };
 
-export default OrganizationCard;
+export default OrganizationCardTwo;

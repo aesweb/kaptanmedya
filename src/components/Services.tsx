@@ -18,7 +18,7 @@ const Services = () => {
               Mutlu anlar, eksiksiz bir günle başlar. Evliliğe ilk adımınızı
               atarken yanınızdayız…
             </div>
-          </div>{' '}
+          </div>
           <div className="items-center justify-center flex flex-col gap-4">
             <Image
               src="/logo.jpeg"
@@ -31,7 +31,7 @@ const Services = () => {
               Mutlu anlar, eksiksiz bir günle başlar. Evliliğe ilk adımınızı
               atarken yanınızdayız…
             </div>
-          </div>{' '}
+          </div>
           <div className="items-center justify-center flex flex-col gap-4">
             <Image
               src="/logo.jpeg"
