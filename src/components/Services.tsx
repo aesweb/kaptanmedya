@@ -40,9 +40,9 @@ const Services = () => {
               width={120}
             />
             <div className="text-2xl">Servisler</div>
-            <div className="text-md font-light max-w-sm">
+            <div className="text-md font-light max-w-sm px-12">
               Mutlu anlar, eksiksiz bir günle başlar. Evliliğe ilk adımınızı
-              atarken yanınızdayız…
+              atarken yanınızdayız… atarken yanınızdayız…
             </div>
           </div>
         </div>
