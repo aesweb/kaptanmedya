@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div className="gap-8 flex flex-col items-center justify-center py-24 bg-[#ab632d26]">
-      <div className="">
+      <div>
         <Image
           src="/logo.jpeg"
           alt="kaptanmedyalogosu"
@@ -13,7 +13,7 @@ const Footer = () => {
           width={100}
         />
       </div>
-      <div className="flex gap-8">
+      <div className="flex flex-col sm:flex-row gap-8">
         <Link href="/kurumsal-servisler">
           <div>Galeri</div>
         </Link>
@@ -28,7 +28,7 @@ const Footer = () => {
         </Link>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex gap-8 flex-col sm:flex-row">
         <Link href="tel:+9005072534711" className="flex items-center gap-1">
           <div>
             <Image
