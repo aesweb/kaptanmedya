@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 const OrganizationCard = () => {
   return (
-    <div className="py-12">
+    <div className="py-12 bg-[#ab632d26] w-full">
       <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row">
-        <div>
-          <div className="mb-10">
-            <div className="mb-2">Wedding Ceremony</div>
-            <div>DÜĞÜN & DAVET</div>
+        <div className="gap-12 flex flex-col">
+          <div>
+            <div className="mb-6 text-xl">Wedding Ceremony</div>
+            <div className="text-4xl">DÜĞÜN & DAVET</div>
           </div>
-          <div className="max-w-xl text-sm">
+          <div className="max-w-xl text-md">
             Hayalini kurduğunuz düğün, unutulmaz anları, ilk dansınız, aileler
             ve konuklarınız ile birlikte unutulmayacak bir gün ve hatırladıkça
             mutluluk yaşatacak muhteşem bir gece için sizlerle birlikteyiz.
