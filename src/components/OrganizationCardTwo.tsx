@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const OrganizationCardTwo = () => {
   return (
-    <section className="py-12 bg-[#f5f3ef] w-11/12 rounded-lg">
-      <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row">
+    <section className="py-12  w-11/12 rounded-lg">
+      <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row bg-[#f5f3ef]">
         <Image
           src="/logo.jpeg"
           alt="kaptanmedyalogosu"
