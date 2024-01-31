@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 const Steps = () => {
   return (
     <section className="bg-white text-black py-12">
@@ -48,9 +49,11 @@ const Steps = () => {
             </div>
           </div>
         </div>
-        <button className="px-6 my-10 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
-          Servislerimiz
-        </button>
+        <Link href="/servisler">
+          <button className="px-6 my-10 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
+            Servislerimiz
+          </button>
+        </Link>
       </div>
     </section>
   );

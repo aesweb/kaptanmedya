@@ -46,9 +46,11 @@ const Contact = () => {
             <div className="text-xl pt-2">konum</div>
           </Link>
         </div>
-        <button className="px-6 my-10 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
-          Bize Ulasin
-        </button>
+        <Link href="/iletisim">
+          <button className="px-6 my-10 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
+            Bize Ulasin
+          </button>
+        </Link>
       </div>
     </section>
   );

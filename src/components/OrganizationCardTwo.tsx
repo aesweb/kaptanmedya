@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const OrganizationCardTwo = () => {
   return (
@@ -24,9 +25,11 @@ const OrganizationCardTwo = () => {
             Bugüne kadar mutluluk içerisinde evliliğe ilk adımını atan yüzlerce
             çiftimizin yanında olduğumuz gibi…
           </div>
-          <button className="shadow-[0_0_0_3px_#000_inset] px-6 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
-            Servislerimiz
-          </button>
+          <Link href="/servisler">
+            <button className="shadow-[0_0_0_3px_#000_inset] px-6 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
+              Servislerimiz
+            </button>
+          </Link>
         </div>
       </div>
     </section>
