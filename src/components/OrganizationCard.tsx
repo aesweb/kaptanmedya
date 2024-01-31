@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const OrganizationCard = () => {
   return (
-    <section className="py-12 w-11/12 rounded-lg">
-      <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row bg-white">
+    <section className="py-12 w-11/12">
+      <div className="flex flex-col rounded-lg items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row bg-[#f5f3ef]">
         <div className="gap-12 flex flex-col">
           <div>
             <div className="mb-6 text-xl">Wedding Ceremony</div>

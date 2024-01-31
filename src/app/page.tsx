@@ -13,9 +13,9 @@ export default function Home() {
       <EventCard />
       <OrganizationCardTwo />
       <LayoutGridDemo />
-      <Contact />
-      <Services />
       <OrganizationCard />
+      <Services />
+      <Contact />
     </>
   );
 }

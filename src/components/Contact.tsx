@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Contact = () => {
   return (
     <section className="py-12 w-11/12">
-      <div className="flex flex-col items-center justify-center text-center px-12 bg-[#f5f3ef] text-black">
+      <div className="flex flex-col items-center justify-center text-center px-12 bg-[#f5f3ef] rounded-lg text-black">
         <div className="text-3xl font-semibold py-12">Bize Ulasin</div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
           <Link
