@@ -11,6 +11,7 @@ const Steps = () => {
               alt="kaptanmedyalogosu"
               height={120}
               width={120}
+              className="hover:scale-105 transition-all duration-300 ease-in-out"
             />
             <div className="text-2xl">Tanisalim</div>
             <div className="text-md font-light max-w-sm">
@@ -24,6 +25,7 @@ const Steps = () => {
               alt="kaptanmedyalogosu"
               height={120}
               width={120}
+              className="hover:scale-105 transition-all duration-300 ease-in-out"
             />
             <div className="text-2xl">Planlayalim</div>
             <div className="text-md font-light max-w-sm">
@@ -37,6 +39,7 @@ const Steps = () => {
               alt="kaptanmedyalogosu"
               height={120}
               width={120}
+              className="hover:scale-105 transition-all duration-300 ease-in-out"
             />
             <div className="text-2xl">Gerceklestirelim</div>
             <div className="text-md font-light max-w-sm px-12">
