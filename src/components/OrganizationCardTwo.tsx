@@ -10,7 +10,7 @@ const OrganizationCardTwo = () => {
           alt="kaptanmedyalogosu"
           height={500}
           width={500}
-          className="rounded-xl hover:scale-105"
+          className="rounded-xl hover:scale-105 transition-all duration-300 ease-in-out"
         />
         <div className="gap-12 flex flex-col">
           <div>
