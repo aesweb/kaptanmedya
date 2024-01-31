@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="gap-8 flex flex-col items-left sm:items-center justify-center py-24 px-12 sm:px-0 bg-[#f5f3ef]">
+    <section className="gap-8 flex flex-col items-left sm:items-center justify-center py-24 px-12 sm:px-0 bg-[#f5f3ef]">
       <div>
         <Image
           src="/logo.jpeg"
@@ -56,7 +56,7 @@ const Footer = () => {
           <div>@kaptanmedya</div>
         </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

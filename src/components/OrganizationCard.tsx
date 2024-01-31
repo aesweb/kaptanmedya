@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const OrganizationCard = () => {
   return (
-    <div className="py-12 bg-[#f5f3ef] w-11/12 rounded-lg">
+    <section className="py-12 bg-[#f5f3ef] w-11/12 rounded-lg">
       <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row">
         <div className="gap-12 flex flex-col">
           <div>
@@ -29,7 +29,7 @@ const OrganizationCard = () => {
           className="rounded-xl hover:scale-105"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

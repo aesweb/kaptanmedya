@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const EventCard = () => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="flex flex-col gap-4 py-12 items-center text-center bg-white text-black px-12">
+    <section className="py-12">
+      <div className="flex flex-col gap-4 items-center text-center bg-white text-black px-12">
         <Image
           src="/logo.jpeg"
           alt="kaptanmedyalogosu"
@@ -23,7 +23,7 @@ const EventCard = () => {
           eğlenceli bir parçası olarak odaklanmanızı kolaylaştıracaktır.
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
