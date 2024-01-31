@@ -5,9 +5,9 @@ const Steps = () => {
     <section className="bg-white text-black py-12">
       <div className="flex flex-col items-center justify-center text-center px-12">
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-16">
-          <div className="items-center justify-center flex flex-col gap-4">
+          <div className="items-center flex flex-col gap-4">
             <Image
-              src="/logo.jpeg"
+              src="/6.jpg"
               alt="kaptanmedyalogosu"
               height={120}
               width={120}
@@ -18,9 +18,9 @@ const Steps = () => {
               atarken yanınızdayız…
             </div>
           </div>
-          <div className="items-center justify-center flex flex-col gap-4">
+          <div className="items-center flex flex-col gap-4">
             <Image
-              src="/logo.jpeg"
+              src="/8.jpg"
               alt="kaptanmedyalogosu"
               height={120}
               width={120}
@@ -31,9 +31,9 @@ const Steps = () => {
               atarken yanınızdayız…
             </div>
           </div>
-          <div className="items-center justify-center flex flex-col gap-4">
+          <div className="items-center flex flex-col gap-4">
             <Image
-              src="/logo.jpeg"
+              src="/7.jpg"
               alt="kaptanmedyalogosu"
               height={120}
               width={120}
