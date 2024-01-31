@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 const Services = () => {
   return (
-    <div className="bg-white text-black py-12">
+    <section className="bg-white text-black py-12">
       <div className="flex flex-col items-center justify-center text-center px-12">
         <div className="text-3xl font-semibold py-12">Servislerimiz</div>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-16">
@@ -47,7 +47,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact';
 import EventCard from '@/components/EventCard';
 import { ImagesSliderDemo } from '@/components/ImagesSliderDemo';
 import { LayoutGridDemo } from '@/components/LayoutGridDemo';
@@ -12,8 +13,9 @@ export default function Home() {
       <EventCard />
       <OrganizationCardTwo />
       <LayoutGridDemo />
-      <OrganizationCard />
+      <Contact />
       <Services />
+      <OrganizationCard />
     </>
   );
 }
