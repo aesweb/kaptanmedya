@@ -10,9 +10,9 @@ export default function Home() {
     <>
       <ImagesSliderDemo />
       <EventCard />
+      <OrganizationCardTwo />
       <LayoutGridDemo />
       <OrganizationCard />
-      <OrganizationCardTwo />
       <Services />
     </>
   );
