@@ -40,7 +40,7 @@ const Navbar = () => {
                 width={100}
               />
             ) : (
-              <div className="hover:translate-x-2 transition duration-200 hover:text-">
+              <div className="hover:translate-x-2 transition duration-200">
                 {item.label}
               </div>
             )}
@@ -89,7 +89,12 @@ const Navbar = () => {
         >
           {navItems.map((item) => (
             <Link key={item.href} href={item?.href}>
-              <div onClick={closeMenu}>{item?.label}</div>
+              <div
+                className="hover:translate-x-2 transition duration-200"
+                onClick={closeMenu}
+              >
+                {item?.label}
+              </div>
             </Link>
           ))}
         </animated.div>
