@@ -13,23 +13,25 @@ const About = () => {
         />
         <div className="text-lg">Kaptan Medya</div>
         <div className="text-xl pb-4">
-          ''siz hayal edin kaptanmedya organizasyon gerceklestirsin''
+          'Siz hayal edin Kaptan Medya gerçekleştirsin.'
         </div>
         <div className="text-md max-w-2xl font-thin">
           Zarif, şık, çekici, eğlenceli ve çarpıcı bir gerçeklik ile rüya gibi
           bir kutlama planlayarak zamanın çok ötesinde her detayı ile sofistike
+          bir estetikle planlıyoruz.
           <br />
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo neque
-          debitis culpa, soluta sint est obcaecati iste voluptate exercitationem
-          enim?
+          Hayallerinizdeki kutlamayı gerçeğe dönüştürürken, her detayı özenle
+          düşünüyor ve planlıyoruz. Kaptan Medya, zarafetin, şıklığın ve
+          eğlencenin mükemmel bir birleşimini sunmak için size hizmet sunuyor.
           <br />
           <br />
           <br />
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-          sapiente enim officiis, reiciendis dolores tempora quam qui eveniet
-          quos soluta.
+          Kaptan Medya, hayatınızdaki her anın kıymetini biliyor ve bu anları
+          daha da özel kılmak için burada. Mutluluğunuzu paylaşma ayrıcalığını
+          bizimle yaşayın. Kaptan Medya olarak sizinle geçirdiğimiz her an, özel
+          ve unutulmaz olacak.
         </div>
       </div>
     </section>

@@ -40,8 +40,8 @@ const Navbar = () => {
                 width={100}
               />
             ) : (
-              <div className="hover:translate-x-2 transition duration-200">
-                {item.label}
+              <div className="hover:scale-105 transition-all duration-300 ease-in-out">
+                {item?.label}
               </div>
             )}
           </Link>

@@ -17,7 +17,7 @@ const Contact = () => {
               height={20}
               width={20}
             />
-            <div className="text-xl pt-2">0523 243 34 52</div>
+            <div className="text-xl pt-2">0507 253 47 11</div>
           </Link>
           <Link
             href="https://www.instagram.com/kaptanmedya/"
