@@ -14,45 +14,46 @@ const Footer = () => {
         />
       </div>
       <div className="flex flex-col sm:flex-row gap-8">
-        <Link href="/hakkimizda">
-          <div>Hakkımızda</div>
-        </Link>
-        <Link href="/servisler">
-          <div>Servisler</div>
-        </Link>
-        <Link href="/galeri">
-          <div>Galeri</div>
-        </Link>
-        <Link href="/iletisim">
-          <div>İletişim</div>
-        </Link>
+        {['/hakkimizda', '/servisler', '/galeri', '/iletisim'].map((href) => (
+          <Link
+            key={href}
+            href={href}
+            className="hover:scale-105 transition-all duration-300 ease-in-out"
+          >
+            <div>
+              {href === '/hakkimizda'
+                ? 'Hakkımızda'
+                : href === '/servisler'
+                ? 'Servisler'
+                : href === '/galeri'
+                ? 'Galeri'
+                : 'İletişim'}
+            </div>
+          </Link>
+        ))}
       </div>
 
       <div className="flex gap-8 flex-col sm:flex-row">
         <Link href="tel:+9005072534711" className="flex items-center gap-1">
-          <div>
-            <Image
-              src="/phone-fill.svg"
-              alt="kaptanmedyalogosu"
-              height={34}
-              width={34}
-            />
-          </div>
+          <Image
+            src="/phone-fill.svg"
+            alt="kaptanmedyalogosu"
+            height={34}
+            width={34}
+          />
           <div>0507 253 47 11</div>
         </Link>
         <Link
           href="https://www.instagram.com/kaptanmedya/"
+          target="_blank"
           className="flex items-center gap-1"
-          target="blank"
         >
-          <div>
-            <Image
-              src="/instagram-fill.svg"
-              alt="kaptanmedyalogosu"
-              height={25}
-              width={25}
-            />
-          </div>
+          <Image
+            src="/instagram-fill.svg"
+            alt="kaptanmedyalogosu"
+            height={25}
+            width={25}
+          />
           <div>@kaptanmedya</div>
         </Link>
       </div>
@@ -61,4 +62,3 @@ const Footer = () => {
 };
 
 export default Footer;
-Footer;

@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
           <Link
             href="tel:+9005072534711"
-            className="items-center justify-center flex flex-col"
+            className="items-center justify-center flex flex-col hover:scale-105 transition-all duration-300 ease-in-out"
           >
             <Image
               src="/phone-fill.svg"
@@ -22,7 +22,7 @@ const Contact = () => {
           <Link
             href="https://www.instagram.com/kaptanmedya/"
             target="blank"
-            className="items-center justify-center flex flex-col"
+            className="items-center justify-center flex flex-col hover:scale-105 transition-all duration-300 ease-in-out"
           >
             <Image
               src="/instagram-fill.svg"
@@ -35,7 +35,7 @@ const Contact = () => {
           <Link
             href="https://www.instagram.com/kaptanmedya/"
             target="blank"
-            className="items-center justify-center flex flex-col"
+            className="items-center justify-center flex flex-col hover:scale-105 transition-all duration-300 ease-in-out"
           >
             <Image
               src="/map.svg"
