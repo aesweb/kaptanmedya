@@ -28,21 +28,21 @@ const Steps: React.FC = () => {
     {
       imgSrc: '/6.jpg',
       alt: 'çiçek fotografı',
-      title: 'Tanisalim',
+      title: 'Tanışalım',
       description:
         'En ozel gunleriniz ve hikayenizi anlatmak icin kigisellestirdiginiz, hayalinizi kurdugunuz detaylar icin bizleri arayabilir ve uygun bir zaman dilimi icin randevu alarak gorusebiliriz.',
     },
     {
       imgSrc: '/8.jpg',
       alt: 'alyans fotografı',
-      title: 'Planlayalim',
+      title: 'Planlayalım',
       description:
         'Bugune kadar gerceklestirdigimiz ve mutlu hikayeler izleyebilir, biraktigimiz yuzlerce ciftimizin yorumlarini okuyabilirsiniz. Sizlerin de hayalini kurdugunuz her detayi ofisimizde birlikte planlayabiliriz.',
     },
     {
       imgSrc: '/7.jpg',
       alt: 'kalp fotografı',
-      title: 'Gerceklestirelim',
+      title: 'Gerçekleştirelim',
       description:
         'Sofistike ayrintilar, carpici, sik ve zarif secenekler arasindan sizlere ozel olarak kisisellestirdigimiz sunum sonrasinda taahhut ettigimiz her detayi o muhtesem gunde gerceklestirebiliriz.',
     },
