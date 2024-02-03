@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Suspense } from 'react';
-const inter = Figtree({ weight: '400', subsets: ['latin'] });
+const inter = Figtree({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Kaptan Medya',
