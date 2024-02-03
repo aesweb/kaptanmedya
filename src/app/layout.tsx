@@ -4,11 +4,14 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Suspense } from 'react';
+
 const inter = Figtree({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Kaptan Medya',
-  description: 'Kaptan Medya Organizasyon',
+  description:
+    'Kaptan Medya Organizasyon | Düğün Davet ve Organizasyon | Kocaeli | İstanbul',
+  icons: ['/favicon.ico?=v4'],
 };
 
 export default function RootLayout({
