@@ -13,7 +13,7 @@ const Contact = () => {
           >
             <Image
               src="/phone-fill.svg"
-              alt="kaptanmedyalogosu"
+              alt="telefon iconu"
               height={20}
               width={20}
             />
@@ -26,7 +26,7 @@ const Contact = () => {
           >
             <Image
               src="/instagram-fill.svg"
-              alt="kaptanmedyalogosu"
+              alt="instagram iconu"
               height={20}
               width={20}
             />
@@ -37,12 +37,7 @@ const Contact = () => {
             target="blank"
             className="items-center justify-center flex flex-col hover:scale-105 transition-all duration-300 ease-in-out"
           >
-            <Image
-              src="/map.svg"
-              alt="kaptanmedyalogosu"
-              height={20}
-              width={20}
-            />
+            <Image src="/map.svg" alt="konum iconu" height={20} width={20} />
             <div className="text-xl pt-2">konum</div>
           </Link>
         </div>

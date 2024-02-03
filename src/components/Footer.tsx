@@ -37,7 +37,7 @@ const Footer = () => {
         <Link href="tel:+9005072534711" className="flex items-center gap-1">
           <Image
             src="/phone-fill.svg"
-            alt="kaptanmedyalogosu"
+            alt="telefon iconu"
             height={34}
             width={34}
           />
@@ -50,7 +50,7 @@ const Footer = () => {
         >
           <Image
             src="/instagram-fill.svg"
-            alt="kaptanmedyalogosu"
+            alt="instagram iconu"
             height={25}
             width={25}
           />

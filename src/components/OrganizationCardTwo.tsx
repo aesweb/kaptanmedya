@@ -7,8 +7,8 @@ const OrganizationCardTwo = () => {
     <section className="py-12 w-11/12">
       <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row rounded-lg bg-[#f5f3ef]">
         <Image
-          src="/logo.jpeg"
-          alt="kaptanmedyalogosu"
+          src="/gallery/4.jpg"
+          alt="suslu masa fotografi"
           height={500}
           width={500}
           className="rounded-xl hover:scale-105 transition-all duration-300 ease-in-out"

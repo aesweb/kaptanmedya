@@ -27,35 +27,35 @@ const Services: React.FC = () => {
   const serviceItems: ServiceItemProps[] = [
     {
       imgSrc: '/services/1.jpg',
-      alt: 'kaptanmedyalogosu',
-      title: 'Düğün Organizasyonu',
+      alt: 'nisan fotografi',
+      title: 'Düğün cicegi',
       description:
         'Mutlu anlar, eksiksiz bir günle başlar. Evliliğe ilk adımınızı atarken yanınızdayız…',
     },
     {
       imgSrc: '/services/2.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'kina gecesi organizasyonu',
       title: 'Kına Gecesi',
       description:
         'Hayatınızın en mutlu anına, o müthiş heyecana saatler kalan davetlilerinize harika bir gece yaşatalım…',
     },
     {
       imgSrc: '/services/3.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'nazar boncugu',
       title: 'Sünnet Organizasyonu',
       description:
         'İlk adımını atarken duyduğunuz gurur ve mutluluğu sünnet töreninde birlikte taçlandıralım…',
     },
     {
       imgSrc: '/services/4.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'alyans fotografi',
       title: 'Nişan Organizasyonu',
       description:
         'Evlilik öncesi heyecanınız birikerek çoğalırken, en özel anlarınızı birlikte planlayalım…',
     },
     {
       imgSrc: '/services/5.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'isik ses ve goruntu sistemleri',
       title: 'Işık, Ses ve Görüntü',
       description:
         'Mekan ışık, ses ve görüntü sistemlerinde profesyonel ekibimiz ve trend ekipmanlarla yanınızdayız…',
@@ -69,42 +69,42 @@ const Services: React.FC = () => {
     },
     {
       imgSrc: '/services/7.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'baby yazili logo',
       title: 'Baby Shower',
       description:
         'Birbirinden özel renkleri ile unutulamayacak bu özel konsepti yıllar sonra bile konuşacaksınız…',
     },
     {
       imgSrc: '/services/8.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'happy birthday yazili logo',
       title: 'Doğum Günü',
       description:
         'Her yaşın mutluluk getirdiği özel günleriniz için kişiselleştirilmiş tasarımlar ve konseptler sunuyoruz…',
     },
     {
       imgSrc: '/services/9.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'disko topu',
       title: 'Parti',
       description:
         'Kalite eğlencenin düzenli ve eksiksiz ritüelleri ile sizlere muhteşem bir parti organizasyonu hazırlayalım…',
     },
     {
       imgSrc: '/services/10.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'profesyonel mikrofon fotografi',
       title: 'Sanatçı',
       description:
         'Hayranı olduğunuz sanatçıları, özel günlerinize dahil edelim ve hikayenizi unutulmaz kılalım…',
     },
     {
       imgSrc: '/services/11.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'ödüllü kupa',
       title: 'Kurumsal Organizasyonlar',
       description:
         'Kurumsal davet, organizayson, açılış töreni ve toplantılarınıza en uygun, eksiksiz çözümler planlayalım…',
     },
     {
       imgSrc: '/services/12.jpg',
-      alt: 'kaptanmedyalogosu',
+      alt: 'mezuniyet şapkası',
       title: 'Mezuniyet',
       description:
         'Hayat başlıyor, öncesinde kepleri fırtlatma zamanı geldi… Bu özel anın her dakikasını unutulmaz kılalım…',
