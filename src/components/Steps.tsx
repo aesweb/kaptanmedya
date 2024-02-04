@@ -27,24 +27,24 @@ const Steps: React.FC = () => {
   const stepsData: StepProps[] = [
     {
       imgSrc: '/6.webp',
-      alt: 'çiçek fotografı',
+      alt: 'çiçek fotoğrafı',
       title: 'Tanışalım',
       description:
-        'En ozel gunleriniz ve hikayenizi anlatmak icin kigisellestirdiginiz, hayalinizi kurdugunuz detaylar icin bizleri arayabilir ve uygun bir zaman dilimi icin randevu alarak gorusebiliriz.',
+        'Özel günlerinizde ve hikayenizi paylaşmak için kişiselleştirdiğiniz detayları anlatmak için bizi arayabilir, hayalinizi kurduğunuz anları paylaşabilir ve uygun bir zaman dilimi için randevu alabilirsiniz.',
     },
     {
       imgSrc: '/8.webp',
-      alt: 'alyans fotografı',
+      alt: 'alyans fotoğrafı',
       title: 'Planlayalım',
       description:
-        'Bugune kadar gerceklestirdigimiz ve mutlu hikayeler izleyebilir, biraktigimiz yuzlerce ciftimizin yorumlarini okuyabilirsiniz. Sizlerin de hayalini kurdugunuz her detayi ofisimizde birlikte planlayabiliriz.',
+        'Bugüne kadar gerçekleştirdiğimiz mutlu hikayeleri inceleyebilir, yüzlerce çiftimizin bıraktığı olumlu yorumları okuyabilirsiniz. Sizin de hayalinizdeki her detayı ofisimizde birlikte planlayarak gerçeğe dönüştürebiliriz.',
     },
     {
       imgSrc: '/7.webp',
-      alt: 'kalp fotografı',
+      alt: 'kalp fotoğrafı',
       title: 'Gerçekleştirelim',
       description:
-        'Sofistike ayrintilar, carpici, sik ve zarif secenekler arasindan sizlere ozel olarak kisisellestirdigimiz sunum sonrasinda taahhut ettigimiz her detayi o muhtesem gunde gerceklestirebiliriz.',
+        'Sofistike detaylar, çarpıcı ve zarif seçenekler arasından özenle kişiselleştirdiğimiz sunum sonrasında, taahhüt ettiğimiz her detayı o muhteşem günde gerçekleştirebiliriz.',
     },
   ];
 
