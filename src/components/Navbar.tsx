@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link key={item.href} href={item?.href}>
             {item.logo ? (
               <Image
-                src="/logo.jpeg"
+                src="/logo.webp"
                 alt="kaptanmedyalogosu"
                 height={100}
                 width={100}
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="flex items-center justify-around md:hidden transition-all duration-300">
         <Link href="/">
           <Image
-            src="/logo.jpeg"
+            src="/logo.webp"
             alt="kaptanmedya logosu"
             height={100}
             width={100}

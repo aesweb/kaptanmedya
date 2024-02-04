@@ -7,7 +7,7 @@ const Footer = () => {
     <section className="gap-8 flex flex-col items-left sm:items-center justify-center py-12 px-12 sm:px-0 text-black bg-[#f5f3ef]">
       <div>
         <Image
-          src="/logo.jpeg"
+          src="/logo.webp"
           alt="kaptanmedyalogosu"
           height={100}
           width={100}
