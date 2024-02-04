@@ -7,7 +7,7 @@ const OrganizationCardTwo = () => {
     <section className="py-12 w-11/12">
       <div className="flex flex-col items-center justify-center gap-12 px-12 py-12 xl:gap-32 xl:flex-row rounded-lg bg-[#f5f3ef]">
         <Image
-          src="/gallery/4.jpg"
+          src="/gallery/4.webp"
           alt="suslu masa fotografi"
           height={500}
           width={500}
@@ -26,7 +26,7 @@ const OrganizationCardTwo = () => {
             çiftimizin yanında olduğumuz gibi…
           </div>
           <Link href="/servisler">
-            <button className="shadow-[0_0_0_3px_#000_inset] px-6 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
+            <button className="px-6 py-2 bg-transparent border border-black text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 w-[150px]">
               Servislerimiz
             </button>
           </Link>

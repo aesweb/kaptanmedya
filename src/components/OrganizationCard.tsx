@@ -26,7 +26,7 @@ const OrganizationCard = () => {
           </Link>
         </div>
         <Image
-          src="/organizationcard.jpg"
+          src="/organizationcard.webp"
           alt="iskele onunde organizasyon"
           height={500}
           width={500}

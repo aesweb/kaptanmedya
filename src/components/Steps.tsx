@@ -26,21 +26,21 @@ const Step: React.FC<StepProps> = ({ imgSrc, alt, title, description }) => (
 const Steps: React.FC = () => {
   const stepsData: StepProps[] = [
     {
-      imgSrc: '/6.jpg',
+      imgSrc: '/6.webp',
       alt: 'çiçek fotografı',
       title: 'Tanışalım',
       description:
         'En ozel gunleriniz ve hikayenizi anlatmak icin kigisellestirdiginiz, hayalinizi kurdugunuz detaylar icin bizleri arayabilir ve uygun bir zaman dilimi icin randevu alarak gorusebiliriz.',
     },
     {
-      imgSrc: '/8.jpg',
+      imgSrc: '/8.webp',
       alt: 'alyans fotografı',
       title: 'Planlayalım',
       description:
         'Bugune kadar gerceklestirdigimiz ve mutlu hikayeler izleyebilir, biraktigimiz yuzlerce ciftimizin yorumlarini okuyabilirsiniz. Sizlerin de hayalini kurdugunuz her detayi ofisimizde birlikte planlayabiliriz.',
     },
     {
-      imgSrc: '/7.jpg',
+      imgSrc: '/7.webp',
       alt: 'kalp fotografı',
       title: 'Gerçekleştirelim',
       description:
