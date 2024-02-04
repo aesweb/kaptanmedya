@@ -13,7 +13,7 @@ const EventCard = () => {
         />
         <div className="text-lg">Kaptan Medya</div>
         <div className="text-xl">
-          ''siz hayal edin kaptanmedya organizasyon gerceklestirsin''
+          'Siz hayal edin Kaptan Medya gerçekleştirsin.'
         </div>
         <div className="text-md max-w-2xl font-thin">
           Zarif, şık, çekici, eğlenceli ve çarpıcı bir gerçeklik ile rüya gibi

@@ -49,12 +49,14 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-around md:hidden transition-all duration-300">
-        <Image
-          src="/logo.jpeg"
-          alt="kaptanmedyalogosu"
-          height={100}
-          width={100}
-        />
+        <Link href="/">
+          <Image
+            src="/logo.jpeg"
+            alt="kaptanmedya logosu"
+            height={100}
+            width={100}
+          />
+        </Link>
         <div className="md:hidden" onClick={handleClick}>
           <svg
             className="w-6 h-6"

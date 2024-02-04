@@ -9,7 +9,9 @@ const OrganizationCard = () => {
         <div className="gap-12 flex flex-col">
           <div>
             <div className="mb-6 text-xl">SPECIAL ORGANIZATIONS</div>
-            <div className="text-4xl">ÖZEL DAVETLER & ORGANİZASYONLAR</div>
+            <div className="text-2xl lg:text-3xl">
+              ÖZEL DAVETLER & ORGANİZASYONLAR
+            </div>
           </div>
           <div className="max-w-xl text-md">
             Kurumsal yada bireysel olarak düşündüğünüz organizasyonların
