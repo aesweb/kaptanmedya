@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full bg-white text-black fixed z-50 top-0">
+    <div className="w-full bg-white text-black fixed z-50 top-0 py-4 border  border-gray-500">
       <div className="items-center gap-12 hidden md:flex justify-center">
         {navItems.map((item) => (
           <Link key={item.href} href={item?.href}>
@@ -36,8 +36,8 @@ const Navbar = () => {
               <Image
                 src="/logo.webp"
                 alt="kaptanmedyalogosu"
-                height={80}
-                width={80}
+                height={100}
+                width={100}
                 className="bg-transparent hover:scale-105 transition-all duration-300 ease-in-out"
               />
             ) : (
