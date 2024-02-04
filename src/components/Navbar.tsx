@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full bg-white text-black fixed z-50 top-0 py-4 border  border-gray-500">
+    <div className="w-full bg-white text-black fixed z-50 top-0 md:py-4 border  border-gray-500">
       <div className="items-center gap-12 hidden md:flex justify-center">
         {navItems.map((item) => (
           <Link key={item.href} href={item?.href}>
