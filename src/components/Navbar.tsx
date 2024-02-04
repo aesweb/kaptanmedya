@@ -36,8 +36,9 @@ const Navbar = () => {
               <Image
                 src="/logo.webp"
                 alt="kaptanmedyalogosu"
-                height={100}
-                width={100}
+                height={80}
+                width={80}
+                className="bg-transparent hover:scale-105 transition-all duration-300 ease-in-out"
               />
             ) : (
               <div className="hover:scale-105 transition-all duration-300 ease-in-out">
@@ -47,7 +48,6 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-
       <div className="flex items-center justify-around md:hidden transition-all duration-300">
         <Link href="/">
           <Image
@@ -83,7 +83,6 @@ const Navbar = () => {
           </svg>
         </div>
       </div>
-
       {isOpen && (
         <animated.div
           style={fade}

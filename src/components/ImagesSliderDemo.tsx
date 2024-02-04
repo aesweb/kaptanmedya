@@ -21,9 +21,12 @@ export function ImagesSliderDemo() {
         }}
         className="z-50 flex flex-col justify-center items-center"
       >
-        <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+        <motion.p className="font-semibold italic text-2xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
           KAPTAN MEDYA
           <br /> ORGANIZASYON
+        </motion.p>
+        <motion.p className="font-bold italic text-2xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+          <p>0507 253 47 11</p>
         </motion.p>
       </motion.div>
     </ImagesSlider>
