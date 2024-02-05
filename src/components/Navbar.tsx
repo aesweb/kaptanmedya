@@ -28,13 +28,13 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-full bg-white text-black fixed z-50 top-0 md:py-4 border  border-gray-500">
+    <div className="w-full bg-black text-white fixed z-50 top-0 md:py-4 border  border-gray-500">
       <div className="items-center gap-12 hidden md:flex justify-center">
         {navItems.map((item) => (
           <Link key={item.href} href={item?.href}>
             {item.logo ? (
               <Image
-                src="/logo.webp"
+                src="/logo.png"
                 alt="kaptanmedyalogosu"
                 height={100}
                 width={100}
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="flex items-center justify-around md:hidden transition-all duration-300">
         <Link href="/">
           <Image
-            src="/logo.webp"
+            src="/logo.png"
             alt="kaptanmedya logosu"
             height={100}
             width={100}

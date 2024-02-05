@@ -6,7 +6,7 @@ const About = () => {
     <section className="py-12">
       <div className="flex flex-col gap-4 items-center text-center bg-white text-black px-12">
         <Image
-          src="/logo.webp"
+          src="/logo.png"
           alt="kaptanmedyalogosu"
           height={100}
           width={100}
