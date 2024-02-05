@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <section className="gap-8 border border-gray-500 flex flex-col items-left sm:items-center justify-center py-12 px-16 sm:px-0 text-black bg-[#f5f3ef]">
+    <section className="gap-8 border border-t-gray-500 flex flex-col items-left sm:items-center justify-center py-12 px-16 sm:px-0 text-black bg-[#f5f3ef]">
       <div>
         <Image
           src="/logo.png"
