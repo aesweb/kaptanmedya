@@ -13,7 +13,7 @@ const About = () => {
         />
         <div className="text-lg">Kaptan Medya</div>
         <div className="text-xl pb-4">
-          'Siz hayal edin Kaptan Medya gerçekleştirsin.'
+          'Siz hayal edin Kaptan Medya Organizasyon gerçekleştirsin.'
         </div>
         <div className="text-md max-w-2xl font-thin">
           Zarif, şık, çekici, eğlenceli ve çarpıcı bir gerçeklik ile rüya gibi
