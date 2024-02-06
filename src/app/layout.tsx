@@ -4,6 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Suspense } from 'react';
+import Whatsapp from '@/components/Whatsapp';
 
 const inter = Figtree({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <main className="flex min-h-screen w-full flex-col items-center justify-center bg-white text-black">
           {children}
         </main>
+        <Whatsapp />
         <Footer />
       </body>
     </html>
