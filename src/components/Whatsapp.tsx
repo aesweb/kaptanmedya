@@ -6,11 +6,9 @@ const Whatsapp = () => {
   const router = useRouter();
 
   const handleClick = async () => {
-    // Check if WhatApp installed, if yes open whatsapp else open whatsapp web
-
     if (navigator.userAgent.includes('WhatsApp')) {
       // WhatsApp is installed
-      window.open(`whatsapp://send?phone=8879xxxxxx`);
+      window.open(`whatsapp://send?phone=905072534711`);
     } else {
       // WhatsApp is not installed, open WhatsApp Web
       window.open(
