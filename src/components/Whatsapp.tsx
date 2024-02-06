@@ -8,7 +8,7 @@ const Whatsapp = () => {
   const handleClick = async () => {
     if (navigator.userAgent.includes('WhatsApp')) {
       // WhatsApp installed
-      window.open(`https://api.whatsapp.com/send?phone=+905072534711`);
+      window.open(`https://wa.me/+905072534711`);
     } else {
       // WhatsApp not installed, open WhatsApp Web
       window.open(
