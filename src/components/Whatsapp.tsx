@@ -7,10 +7,10 @@ const Whatsapp = () => {
 
   const handleClick = async () => {
     if (navigator.userAgent.includes('WhatsApp')) {
-      // WhatsApp is installed
-      window.open(`whatsapp://send?phone=905072534711`);
+      // WhatsApp installed
+      window.open(`https://api.whatsapp.com/send?phone=+905072534711`);
     } else {
-      // WhatsApp is not installed, open WhatsApp Web
+      // WhatsApp not installed, open WhatsApp Web
       window.open(
         'https://web.whatsapp.com/send?phone=+905072534711',
         '_blank'
@@ -22,7 +22,7 @@ const Whatsapp = () => {
     <>
       <div
         className="bg-green-600 w-min p-2 rounded-full fixed 
-            bottom-10 right-4 cursor-pointer md:right-8"
+              bottom-10 right-4 cursor-pointer md:right-8"
         onClick={handleClick}
       >
         <FaWhatsapp color="white" className="w-7 h-7 md:w-10 md:h-10" />
