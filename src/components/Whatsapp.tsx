@@ -6,7 +6,7 @@ const Whatsapp = () => {
   const router = useRouter();
 
   const handleClick = async () => {
-    if (navigator.userAgent.includes('WhatsApp')) {
+    if (navigator.userAgent.includes('WhatsApp Messenger')) {
       // WhatsApp installed
       window.open(`https://api.whatsapp.com/send?phone=+905072534711`);
     } else {
@@ -16,6 +16,8 @@ const Whatsapp = () => {
         '_blank'
       );
     }
+
+    
   };
 
   return (
