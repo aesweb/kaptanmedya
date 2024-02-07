@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Suspense } from 'react';
 import Whatsapp from '@/components/Whatsapp';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Figtree({ subsets: ['latin'] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         </Suspense>
         <main className="flex min-h-screen w-full flex-col items-center justify-center bg-white text-black">
           {children}
+          <SpeedInsights />
         </main>
         <Whatsapp />
         <Footer />
