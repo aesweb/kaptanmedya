@@ -38,12 +38,12 @@ const Navbar = () => {
                 alt="kaptanmedyalogosu"
                 height={100}
                 width={100}
-                className="bg-transparent hover:scale-105 transition-all duration-300 ease-in-out"
+                className="bg-transparent transform hover:-translate-y-1 transition duration-400"
               />
             ) : (
-              <div className="hover:scale-105 transition-all duration-300 ease-in-out">
+              <button className="px-6 py-2 rounded-lg font-medium transform hover:-translate-y-1 transition duration-400">
                 {item?.label}
-              </div>
+              </button>
             )}
           </Link>
         ))}

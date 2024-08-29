@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -27,7 +26,7 @@ const OrganizationCard = () => {
         </div>
         <Image
           src="/organizationcard.webp"
-          alt="iskele onunde organizasyon"
+          alt="İskele önünde organizasyon"
           height={500}
           width={500}
           className="rounded-xl hover:scale-105 transition-all duration-300 ease-in-out"
