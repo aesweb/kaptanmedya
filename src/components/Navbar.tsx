@@ -20,11 +20,11 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { href: '/hakkimizda', label: 'Hakkımızda' },
-    { href: '/servisler', label: 'Servisler' },
+    { href: '/hakkimizda', label: 'HAKKIMIZDA' },
+    { href: '/servisler', label: 'SERVİSLERİMİZ' },
     { href: '/', label: 'Ana Sayfa', logo: true },
-    { href: '/galeri', label: 'Galeri' },
-    { href: '/iletisim', label: 'İletişim' },
+    { href: '/galeri', label: 'GALERİ' },
+    { href: '/iletisim', label: 'İLETİŞİM' },
   ];
 
   return (

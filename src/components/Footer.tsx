@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -18,16 +17,16 @@ const Footer = () => {
           <Link
             key={href}
             href={href}
-            className="hover:scale-105 transition-all duration-300 ease-in-out"
+            className="transform hover:-translate-y-1 transition duration-400 px-2"
           >
             <div>
               {href === '/hakkimizda'
-                ? 'Hakkımızda'
+                ? 'HAKKIMIZDA'
                 : href === '/servisler'
-                ? 'Servisler'
+                ? 'SERVİSLERİMİZ'
                 : href === '/galeri'
-                ? 'Galeri'
-                : 'İletişim'}
+                ? 'GALERİ'
+                : 'İLETİŞİM'}
             </div>
           </Link>
         ))}
