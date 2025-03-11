@@ -24,8 +24,6 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
           content="Kocaeli, Gebze, Darıca, İzmit, İstanbul, organizasyon firmalarından biri olan Kaptan Medya organizasyon kurumsal etkinlikler, event, Şirket piknikleri, lansman, festivaller, gala, açılış, organizasyonları, çadır, minder, armut minder kiralama"
